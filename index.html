@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101018">
+  <meta name="description" content="BYTEA؛ انجمن کدنویسی، یادگیری و ساختن. refactor the feature.">
+  <title>BYTEA — refactor the feature.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="BYTEA home"><span class="brand-mark">b<span>.</span></span><span>BYTEA</span></a>
+    <nav class="nav" id="nav">
+      <a href="#home" class="nav-link active">خانه</a><a href="#learn" class="nav-link">یادگیری</a>
+      <a href="#community" class="nav-link">انجمن</a><a href="#projects" class="nav-link">پروژه‌ها</a>
+      <a href="#events" class="nav-link">رویدادها</a><a href="#about" class="nav-link">درباره ما</a>
+    </nav>
+    <div class="header-actions"><a class="btn btn-quiet desktop-only" href="#community">ورود به انجمن ↗</a><button class="menu-toggle" id="menuToggle" aria-label="باز کردن منو">☰</button></div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> COMMUNITY FOR THE CURIOUS MINDS</div>
+        <h1>کد بزن. یاد بگیر.<br><span class="gradient-text">با هم بهتر بسازیم.</span></h1>
+        <p class="hero-desc">BYTEA جایی برای آدم‌هایی‌ست که از کنجکاوی شروع می‌کنند، با تمرین رشد می‌کنند و با همکاری چیزهای واقعی می‌سازند.</p>
+        <div class="hero-cta"><a class="btn btn-primary" href="#learn">شروع یادگیری <span>←</span></a><a class="btn btn-outline" href="#about">داستان BYTEA</a></div>
+        <div class="hero-proof"><div class="avatar-stack"><i>م</i><i>آ</i><i>ر</i><i>+</i></div><span>برای تازه‌کارها تا سازنده‌های باتجربه</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="code-window">
+          <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>bytea.ts</span><span class="window-lock">⌘</span></div>
+          <div class="code-content" dir="ltr">
+            <div><em>01</em><span class="kw">const</span> <b>community</b> = {</div>
+            <div><em>02</em>&nbsp;&nbsp;name: <strong>'BYTEA'</strong>,</div>
+            <div><em>03</em>&nbsp;&nbsp;meaning: <strong>'byte + tea'</strong>,</div>
+            <div><em>04</em>&nbsp;&nbsp;mission: <strong>'learn & build'</strong>,</div>
+            <div><em>05</em>&nbsp;&nbsp;members: <span class="num">∞</span>,</div>
+            <div><em>06</em>};</div>
+            <div class="code-gap"></div><div><em>07</em><span class="kw">while</span> (curious) {</div>
+            <div><em>08</em>&nbsp;&nbsp;learnSomething();</div><div><em>09</em>&nbsp;&nbsp;buildTogether();</div>
+            <div><em>10</em>}</div><div class="cursor-line"><em>11</em><span class="cursor"></span></div>
+          </div>
+          <div class="code-footer"><span><i class="status-dot"></i> All systems curious</span><span>UTF-8&nbsp; · &nbsp;main</span></div>
+        </div>
+        <div class="floating-chip chip-top"><span>✳</span> Learn by doing</div><div class="floating-chip chip-bottom"><span>⌁</span> byte + tea</div>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO EXPLORE</span><div class="scroll-line"></div><span class="mono">EST. FOR THE LOVE OF CODE</span></div>
+    </section>
+
+    <section class="ticker" aria-label="BYTEA values"><div class="ticker-track"><span>CODE WITH CURIOSITY</span><b>✳</b><span>LEARN IN PUBLIC</span><b>✳</b><span>BUILD TOGETHER</span><b>✳</b><span>SHARE THE KNOWLEDGE</span><b>✳</b><span>CODE WITH CURIOSITY</span><b>✳</b><span>LEARN IN PUBLIC</span><b>✳</b><span>BUILD TOGETHER</span><b>✳</b></div></section>
+
+    <section class="section intro-section" id="about">
+      <div class="section-kicker">01 / WHAT IS BYTEA?</div><div class="intro-grid">
+        <h2>کدنویسی بهتر،<br><span class="muted">با آدم‌های بهتر.</span></h2>
+        <div><p class="lead">اسم ما از ترکیب دو چیز ساده می‌آید: <b>Byte</b>، کوچک‌ترین واحد دنیای دیجیتال؛ و <b>Tea</b>، بهانه‌ای برای دور هم جمع شدن.</p><p class="subtle">BYTEA یک انجمن یادگیری و همکاری است؛ جایی برای پرسیدن سؤال، به اشتراک گذاشتن تجربه، ساخت پروژه و لذت بردن از مسیر برنامه‌نویسی.</p><a class="text-link" href="#community">بیشتر درباره جامعه ما <span>↗</span></a></div>
+      </div>
+      <div class="value-cards">
+        <article class="value-card"><span class="card-icon purple">⌘</span><h3>یادگیری واقعی</h3><p>از مفهوم تا پیاده‌سازی؛ با تمرین‌هایی که به دنیای واقعی وصل‌اند.</p><span class="card-index">01</span></article>
+        <article class="value-card"><span class="card-icon mint">⌁</span><h3>رشد جمعی</h3><p>با پرسیدن، پاسخ دادن و بازخورد گرفتن از یکدیگر رشد می‌کنیم.</p><span class="card-index">02</span></article>
+        <article class="value-card"><span class="card-icon orange">✳</span><h3>ساختن و اشتراک</h3><p>ایده‌ها را به پروژه تبدیل می‌کنیم و نتیجه را با جامعه به اشتراک می‌گذاریم.</p><span class="card-index">03</span></article>
+      </div>
+    </section>
+
+    <section class="section learn-section" id="learn">
+      <div class="section-heading"><div><div class="section-kicker">02 / LEARNING PATHS</div><h2>از کجا شروع کنیم؟</h2></div><a class="text-link" href="#community">همه مسیرها <span>↗</span></a></div>
+      <p class="section-desc">مسیرت را انتخاب کن؛ قدم‌به‌قدم جلو می‌رویم و در طول راه تنها نیستی.</p>
+      <div class="learning-grid">
+        <article class="learning-card featured"><div class="learning-top"><span class="tag">START HERE</span><span class="mini-arrow">↗</span></div><div class="language-icon html-icon">&lt;/&gt;</div><h3>فرانت‌اند وب</h3><p>از ساخت اولین صفحه تا رابط‌های کاربری تعاملی و مدرن.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="progress-meta"><span>مسیر پیشنهادی</span><span>۰ تا پیشرفته</span></div></article>
+        <article class="learning-card"><div class="learning-top"><span class="tag tag-soft">POPULAR</span><span class="mini-arrow">↗</span></div><div class="language-icon python-icon">Py</div><h3>برنامه‌نویسی Python</h3><p>مبانی برنامه‌نویسی، اتوماسیون، داده و ساخت ابزارهای کاربردی.</p><div class="tags"><span>Python</span><span>Git</span><span>API</span></div><div class="progress-meta"><span>مسیر پروژه‌محور</span><span>۰ تا پیشرفته</span></div></article>
+        <article class="learning-card"><div class="learning-top"><span class="tag tag-soft">BUILD & SHIP</span><span class="mini-arrow">↗</span></div><div class="language-icon git-icon">⌘</div><h3>ابزارهای توسعه</h3><p>ابزارهایی که کار روزمره یک توسعه‌دهنده را حرفه‌ای‌تر می‌کنند.</p><div class="tags"><span>Git</span><span>Linux</span><span>Terminal</span></div><div class="progress-meta"><span>یادگیری عملی</span><span>مقدماتی تا متوسط</span></div></article>
+      </div>
+    </section>
+
+    <section class="community-band" id="community"><div class="section community-inner"><div class="community-copy"><div class="section-kicker">03 / THE COMMUNITY</div><h2>یک سؤال خوب،<br><span class="gradient-text">شروع یک گفت‌وگوی خوب.</span></h2><p>در BYTEA لازم نیست همه‌چیز را بلد باشی. کافی‌ست کنجکاو باشی، تجربه‌ات را به اشتراک بگذاری و به رشد بقیه کمک کنی.</p><div class="hero-cta"><a class="btn btn-primary" href="mailto:hello@bytea.dev?subject=Join%20BYTEA">به BYTEA بپیوند <span>↗</span></a><a class="btn btn-outline" href="#faq">سؤالات متداول</a></div></div>
+      <div class="discussion-card"><div class="discussion-head"><span><i class="status-dot"></i> گفت‌وگوهای انجمن</span><span class="live-label">COMMUNITY FEED</span></div>
+        <div class="discussion-item"><div class="topic-icon topic-js">JS</div><div class="discussion-text"><b>بهترین روش مدیریت state در پروژه‌های کوچک؟</b><span>فرانت‌اند <i>·</i> ۱۲ پاسخ</span></div><span class="discussion-time">۲ ساعت پیش</span></div>
+        <div class="discussion-item"><div class="topic-icon topic-py">Py</div><div class="discussion-text"><b>اولین اسکریپت پایتونم رو ساختم!</b><span>نمایش پروژه <i>·</i> ۸ پاسخ</span></div><span class="discussion-time">۵ ساعت پیش</span></div>
+        <div class="discussion-item"><div class="topic-icon topic-git">⌘</div><div class="discussion-text"><b>Git rebase یا merge؟ تجربه شما چیه؟</b><span>ابزارها <i>·</i> ۲۱ پاسخ</span></div><span class="discussion-time">دیروز</span></div>
+        <div class="discussion-compose"><span class="compose-avatar">B</span><span>ایده یا سؤالت رو مطرح کن...</span><span class="compose-plus">＋</span></div>
+      </div></div></section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading"><div><div class="section-kicker">04 / MADE TOGETHER</div><h2>یادگیری با ساختن</h2></div><span class="section-note">IDEAS → CODE → REAL THINGS</span></div>
+      <p class="section-desc">به‌جای فقط دیدن آموزش، چیزی بساز که بتوانی نشانش بدهی.</p>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-visual visual-one"><div class="browser-mock"><div class="browser-bar"><i></i><i></i><i></i></div><div class="mock-layout"><div class="mock-sidebar"></div><div class="mock-main"><div class="mock-heading"></div><div class="mock-line"></div><div class="mock-line short"></div><div class="mock-blocks"><i></i><i></i><i></i></div></div></div></div></div><div class="project-info"><div><span class="project-type">FRONT-END</span><h3>داشبورد شخصی</h3></div><span class="project-level">مبتدی</span></div><p>یک داشبورد ساده برای مدیریت کارهای روزانه.</p></article>
+        <article class="project-card"><div class="project-visual visual-two"><div class="terminal-mock"><div class="terminal-title">bytea@workspace:~</div><p><span>$</span> python tracker.py</p><p class="terminal-success">✓ tasks loaded successfully</p><p><span>$</span> <i class="terminal-cursor"></i></p></div></div><div class="project-info"><div><span class="project-type">PYTHON</span><h3>ردیاب عادت‌ها</h3></div><span class="project-level">متوسط</span></div><p>ساخت یک ابزار کوچک برای ثبت و تحلیل عادت‌ها.</p></article>
+        <article class="project-card"><div class="project-visual visual-three"><div class="git-visual"><span>●</span><div class="git-line"></div><span>●</span><div class="git-line branch"></div><span>●</span><span>●</span></div><div class="git-label">git commit -m "first build"</div></div><div class="project-info"><div><span class="project-type">OPEN SOURCE</span><h3>اولین مشارکت</h3></div><span class="project-level">همکاری</span></div><p>با یک تغییر کوچک وارد دنیای متن‌باز شو.</p></article>
+      </div>
+    </section>
+
+    <section class="section events-section" id="events">
+      <div class="section-heading"><div><div class="section-kicker">05 / MEET & MAKE</div><h2>دورهمی‌های BYTEA</h2></div><span class="section-note">GOOD CODE. GOOD COMPANY.</span></div>
+      <div class="event-row"><div class="event-date"><b>01</b><span>WORKSHOP</span></div><div class="event-main"><h3>از صفر تا اولین صفحه وب</h3><p>یک کارگاه دوستانه برای ساخت اولین صفحه با HTML و CSS.</p></div><div class="event-meta"><span>مناسب همه</span><span>آنلاین / حضوری</span></div><a class="event-arrow" href="mailto:hello@bytea.dev?subject=BYTEA%20Workshop">↗</a></div>
+      <div class="event-row"><div class="event-date"><b>02</b><span>CODE NIGHT</span></div><div class="event-main"><h3>شب کدنویسی و چای</h3><p>کنار هم کد می‌زنیم، مسئله حل می‌کنیم و تجربه ردوبدل می‌کنیم.</p></div><div class="event-meta"><span>همه سطوح</span><span>دورهمی</span></div><a class="event-arrow" href="mailto:hello@bytea.dev?subject=BYTEA%20Code%20Night">↗</a></div>
+      <div class="event-row"><div class="event-date"><b>03</b><span>CHALLENGE</span></div><div class="event-main"><h3>چالش ساخت در ۷ روز</h3><p>یک ایده کوچک را انتخاب کن و در یک هفته به نسخه اولیه برسان.</p></div><div class="event-meta"><span>تیمی و انفرادی</span><span>پروژه‌محور</span></div><a class="event-arrow" href="mailto:hello@bytea.dev?subject=BYTEA%207%20Day%20Challenge">↗</a></div>
+    </section>
+
+    <section class="section faq-section" id="faq"><div class="faq-intro"><div class="section-kicker">06 / FAQ</div><h2>سؤال داری؟<br><span class="muted">طبیعیه.</span></h2><p>چند جواب کوتاه برای شروع مسیر.</p></div><div class="faq-list">
+      <details open><summary>BYTEA برای چه کسانی است؟<span>＋</span></summary><p>برای همه علاقه‌مندان به برنامه‌نویسی؛ از کسانی که هنوز اولین خط کدشان را ننوشته‌اند تا توسعه‌دهندگانی که می‌خواهند تجربه‌شان را به اشتراک بگذارند.</p></details>
+      <details><summary>برای عضویت باید برنامه‌نویسی بلد باشم؟<span>＋</span></summary><p>نه! کنجکاوی و علاقه برای شروع کافی است. مسیرهای یادگیری و تمرین‌ها برای سطح‌های مختلف طراحی شده‌اند.</p></details>
+      <details><summary>آیا آموزش‌ها رایگان هستند؟<span>＋</span></summary><p>هدف BYTEA ساختن یک فضای یادگیری در دسترس است. جزئیات دوره‌ها و برنامه‌ها با شروع فعالیت انجمن اعلام می‌شود.</p></details>
+      <details><summary>چطور می‌توانم در پروژه‌ها مشارکت کنم؟<span>＋</span></summary><p>از طریق ایمیل با ما در ارتباط باش و حوزه علاقه‌مندی یا مهارتت را معرفی کن تا برای همکاری راهنمایی‌ات کنیم.</p></details>
+    </div></section>
+
+    <section class="closing-cta"><div class="closing-orb"></div><div class="section-kicker">YOUR NEXT COMMIT STARTS HERE</div><h2>وقتشه چیزی<br><span class="gradient-text">بسازی.</span></h2><p>یک فنجان چای بردار؛ بقیه‌اش را با هم کد می‌زنیم.</p><a class="btn btn-primary" href="mailto:hello@bytea.dev?subject=Let's%20build%20with%20BYTEA">شروع کنیم <span>↗</span></a><div class="closing-slogan mono">refactor the feature.</div></section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">b<span>.</span></span><span>BYTEA</span></a><p>ساخته‌شده برای کنجکاوها، با کمی چای و کلی کد.</p><div class="footer-right"><span class="mono">refactor the feature.</span><span>© 2026 BYTEA Community</span></div></footer>
+  <script src="script.js"></script>
+</body></html>
